@@ -1,14 +1,11 @@
+import java.util.Scanner;
 
 public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World");
-
-		System.out.println("Hello Tudcook");	
-		System.out.println("Hello hummmm");	
-
-	
-		System.out.println("Hello Tudcook1");	
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int n = input.nextInt(); 
 	}
 }
