@@ -10,5 +10,6 @@ public class Hello {
 		int n = input.nextInt();
 		Result cal = new Result(n);
 		System.out.println(cal.output());
+		
 	}
 }
