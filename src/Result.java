@@ -9,6 +9,7 @@ public class Result  {
 		
 }
 	public String output() {
+		
 		if(n%2==0) {
 			str=("Number is Even ");
 		}else {
