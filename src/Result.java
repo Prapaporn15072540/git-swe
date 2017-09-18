@@ -1,19 +1,15 @@
 
 public class Result  {
 	public int n;
-	public String str;
+	public double str;
 	public Result(int n) {
 		this.n=n;
 		
 		// TODO Auto-generated method stub
 		
 }
-	public String output() {
-		if(n%2==0) {
-			str=("Number is Even ");
-		}else {
-			str=("Number is Odd ");
-		}
+	public double output() {
+		str=3.14*n*n;
 		return str;
 	}
 	
