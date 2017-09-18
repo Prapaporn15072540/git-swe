@@ -9,7 +9,8 @@ public class Student {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int n = input.nextInt();
-		
+	    Cal cal = new Cal();
+		System.out.println(cal.dis(n));
 	}
 
 }
