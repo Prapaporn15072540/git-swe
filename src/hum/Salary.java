@@ -13,6 +13,8 @@ public class Salary {
 		String name = input.nextLine();
 		System.out.println("Enter a Salary: ");
 		int salary = input.nextInt();
+		System.out.println("Enter a Sale: ");
+		int sale = input.nextInt();
 	}
 
 }
