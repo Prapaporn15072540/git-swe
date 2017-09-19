@@ -11,8 +11,13 @@ public class ccg {
 		sum = salary+(sale*0.02);
 	}if(sale>=100001) {
 		sum = salary+(sale*0.03);
-		
 	}
+	if(sum<15000) {
+		if(sale>=100001) {
+		sum = sum+3500;
+		}
+	}
+	
 	return sum;
 }
 }
