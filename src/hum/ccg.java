@@ -13,6 +13,7 @@ public class ccg {
 		sum = salary+(sale*0.03);
 		
 	}
+	
 	return sum;
 }
 }
