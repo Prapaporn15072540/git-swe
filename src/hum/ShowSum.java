@@ -2,7 +2,7 @@ package hum;
 
 public class ShowSum {
 
-	public static void main(String[] args) {
+	public void show(String name, int sum) {
 		
 		System.out.println(""+ name + "ค่าตอบแทน =" + "" + sum + "บาท");
 
