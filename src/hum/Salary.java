@@ -12,9 +12,9 @@ public class Salary {
 		System.out.println("Enter a Name: ");
 		String name = input.nextLine();
 		System.out.println("Enter a Salary: ");
-		int salary = input.nextInt();
+		double salary = input.nextInt();
 		System.out.println("Enter a Sale: ");
-		int sale = input.nextInt();
+		double sale = input.nextInt();
 	}
 
 }

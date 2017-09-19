@@ -1,7 +1,8 @@
 package hum;
 
 public class ccg {
-	int sum=0;
+	public double cal(double sale) {
+	double sum=0;
 	if(sale>50001)
 	{
 		sum = sale*0.03;
@@ -11,4 +12,6 @@ public class ccg {
 		sum = sale*0.01;
 		
 	}
+	return sum;
+}
 }
